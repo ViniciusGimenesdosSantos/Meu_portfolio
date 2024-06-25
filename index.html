@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Meu portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header class="header" id="home">
+        <h1 class="header-heading">Web Developer</h1>
+        <img
+          src="./images/eu.jpg"
+          alt="Vinícius Gimenes dos Santos"
+          class="header-person-img"
+        />
+        <h3 class="header-person-name">Vincius Gimenes dos Santos</h3>
+        <a href="#projects" class="header-btn">Projects</a>
+      </header>
+      <!-- end header -->
+
+      <!-- navbar -->
+      <nav class="navbar">
+        <a href="#home" class="navbar-link">inicio</a>
+        <a href="#about" class="navbar-link">habilidades</a>
+        <a href="#projects" class="navbar-link">projetos</a>
+        <a href="#contact" class="navbar-link">contato</a>
+        <a href="sobre.html" class="navbar-link">sobre</a>
+      </nav>
+      <!-- end navbar -->
+ 
+
+      <!-- about section -->
+      <section class="about" id="about">
+        <h1 class="about-heading section-heading">Minhas habilidades</h1>
+        
+        <div class="services">
+          <div class="service">
+          <img src="images/HTML-5-Badge-Logo2.png" alt="">
+            <h2 class="service-heading">HTML</h2>
+          </div>
+
+          <div class="service">
+          <img src="images/csslogo.png" alt="">
+            <h2 class="service-heading">CSS</h2>
+          </div>
+
+          <div class="service">
+          <img src="images/gitlogo.png" alt="">
+            <h2 class="service-heading">GIT</h2>
+          </div>
+
+          <div class="service">
+          <img src="images/github.png" alt="">
+            <h2 class="service-heading">GITHUB</h2>
+          </div>
+        </div>
+      </section>
+      <!-- end about section -->
+
+      <!-- projects section -->
+      <section class="projects" id="projects">
+        <h1 class="projects-heading section-heading">Meus projetos</h1>
+        <div class="projects-wrapper">
+          <div class="project">
+            <div class="project-content">
+              <h2 class="project-title">Fatec-Tools</h2>
+              <h4 class="project-technologies">HTML / CSS</h4>
+            </div>
+            <img
+              src="./images/pilogo.png"
+              alt="Fatec-Tools"
+              class="project-img"
+            />
+            <a href="https://github.com/FATEC-tools/PI" class="project-link" target="_blank">Ver no github</a>
+          </div>
+      </section>
+      <!-- end projects section -->
+
+      <!-- contact section -->
+      <section class="contact" id="contact">
+        <h1 class="contact-heading section-heading">Entre em contato</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Send" class="contact-form-btn" />
+        </form>
+      </section>
+      <!-- end contact section -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="social-media-icons">
+          <a href="https://github.com/ViniciusGimenesdosSantos" class="social-media-link">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a href="#" class="social-media-link">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+          </a>
+        </div>
+        <p class="copyright">Copyright &copy; ViniciusGimenesdosSantos. All Rights reserved</p>
+      </footer>
+      <!-- end footer -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
